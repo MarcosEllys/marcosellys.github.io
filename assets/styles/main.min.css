@@ -221,13 +221,7 @@ a.symbol:before {
 
 .resume main .primary {
   padding-right: 2.375rem;
-  border-right: 1px solid #d8d8d8;
-  width: 72.5%
-}
-
-.resume main .secondary {
-  padding-left: 2.375rem;
-  width: 27.5%
+  width: 100%
 }
 
 .resume section {
@@ -278,10 +272,6 @@ a.symbol:before {
   margin: .375rem 0;
   padding-left: 2rem;
   list-style: initial
-}
-
-.resume section .roleName::after {
-  content: ', '
 }
 
 @media print {
