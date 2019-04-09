@@ -21,10 +21,11 @@
     <header>
       <div class="badge">
         <h1 itemprop="name">Marcos Ellys</h1>
-        <div itemprop="jobTitle">Software Engineer</div>
-      </div>
-      <div class="contact">
+        <div itemprop="jobTitle" data-binding="role"></div>
         <a class="email" href="mailto:marcos.ellys@gmail.com" itemprop="email">marcos.ellys@gmail.com</a>
+      </div>
+      <div class="side-resume">
+        <label class="switch"><input type="checkbox" class="is-warning" onclick="changeLang()"> <span data-binding="language"></span></label>
       </div>
       <meta itemprop="isicV4" content="6101" />
       <meta itemprop="naics" content="541511" />
@@ -34,50 +35,50 @@
     <main>
       <div class="primary">
         <section>
-          <h2>About</h2>
-          <div class="description" itemprop="description">Software Development Engineer, graduate in ADS by FVS with expertise in Angular working with @nodejs stack, enthusiast Open Source and Free Software.</div>
+          <h2 data-binding="me"></h2>
+          <div class="description" itemprop="description" data-binding="description"></div>
         </section>
         <section>
-          <h2>Experience</h2>
+          <h2 data-binding="level"></h2>
           <ul>
             <li itemprop="memberOf" itemscope itemtype="http://schema.org/OrganizationRole">
               <h3>
-                <span class="roleName" itemprop="roleName">Software Engineer,</span>
+                <span class="roleName" itemprop="roleName" data-binding="roleOne"></span>
                 <span itemprop="memberOf" itemscope itemtype="http://schema.org/Organization">
                   <span itemprop="name"><a itemprop="url" href="https://www.brisanet.com.br">Brisanet Telecomunicações</a></span>
                 </span>
               </h3>
-              <div class="dates"><time itemprop="startDate" datetime="2015-03">March 2015</time> &mdash; <time itemprop="endDate">present</time></div>
+              <div class="dates"><time itemprop="startDate" datetime="2015-03" data-binding="startDateOne"></time> &mdash; <time itemprop="endDate" data-binding="endDateOne"></time></div>
               <div class="description" itemprop="description">
-                <div>Brisanet is the 9th largest internet provider in Brazil.</div>
+                <div data-binding="descriptionBusinessOne"></div>
                 <ul>
-                  <li>Works with a highly trained team to deliver incredible products.</li>
-                  <li>Serves as a developer for Javascript and all web technologies.</li>
-                  <li>Expert in version control, code review and CI.</li>
+                  <li data-binding="descriptionBusinessOneRef1"></li>
+                  <li data-binding="descriptionBusinessOneRef2"></li>
+                  <li data-binding="descriptionBusinessOneRef3"></li>
                 </ul>
               </div>
             </li>
           </ul>
         </section>
         <section>
-          <h2>Skills</h2>
+          <h2 data-binding="talent"></h2>
           <ul>
             <li itemprop="knowsAbout">
               <h3>
-                <span class="roleName" itemprop="roleName">Web Platform</span>
+                <span class="roleName" itemprop="roleName" data-binding="talent1"></span>
               </h3>
               <div class="description" itemprop="description">
                 <ul>
                   <li>HTML (incl. HTML5 semantics).</li>
                   <li>CSS (incl. Flexbox).</li>
                   <li>JavaScript (incl. ES6, jQuery).</li>
-                  <li>Accessibility (ARIA).</li>
+                  <li data-binding="talentDescribeOne"></li>
                 </ul>
               </div>
             </li>
             <li itemprop="knowsAbout">
               <h3>
-                <span class="roleName" itemprop="roleName">Backend</span>
+                <span class="roleName" itemprop="roleName" data-binding="talent2"></span>
               </h3>
               <div class="description" itemprop="description">
                 <ul>
@@ -88,49 +89,51 @@
             </li>
             <li itemprop="knowsAbout">
               <h3>
-                <span class="roleName" itemprop="roleName">Operations</span>
+                <span class="roleName" itemprop="roleName" data-binding="talent3"></span>
               </h3>
               <div class="description" itemprop="description">
                 <ul>
                   <li>Linux (Ubuntu, Debian, CentOS).</li>
-                  <li>Servers (Apache, Nginx).</li>
-                  <li>Databases (Postgres, MongoDB, Firebase).</li>
+                  <li data-binding="talentDescribeTwo"></li>
+                  <li data-binding="talentDescribeThree"></li>
                   <li>Containers (Docker).</li>
                 </ul>
               </div>
             </li>
             <li itemprop="knowsAbout">
               <h3>
-                <span class="roleName" itemprop="roleName">Tooling</span>
+                <span class="roleName" itemprop="roleName" data-binding="talent4"></span>
               </h3>
               <div class="description" itemprop="description">
                 <ul>
-                  <li>Version Control (Git preferred).</li>
-                  <li>Tracking (GitHub, Jira, Gitlab).</li>
-                  <li>Editors (VSCode, Sublime, Atom).</li>
+                  <li data-binding="talentDescribeFour"></li>
+                  <li data-binding="talentDescribeFive"></li>
+                  <li data-binding="talentDescribeSix"></li>
                 </ul>
               </div>
             </li>
           </ul>
         </section>
         <section>
-          <h2>Education</h2>
+          <h2 data-binding="formation"></h2>
           <ul>
             <li itemprop="memberOf" itemscope itemtype="http://schema.org/OrganizationRole">
               <h3>
-                <span class="roleName" itemprop="roleName">Systems Analyst and Developer, </span>
+                <span class="roleName" itemprop="roleName" data-binding="roleName"></span>
                 <span itemprop="memberOf" itemscope itemtype="http://schema.org/EducationalOrganization">
                   <span itemprop="name"><a itemprop="url" href="http://www.fvs.edu.br/">Faculdade vale do Salgado</a></span>
                 </span>
               </h3>
-              <div class="dates">Graduated in 2014</div>
+              <div class="dates" data-binding="graduatedDate"></div>
               <div class="description" itemprop="description">
-                <div>Expert in analyze, design, implement and update web systems.</div>
+                <div data-binding="skillsDescritption"></div>
               </div>
             </li>
           </ul>
         </section>
       </div>
     </main>
+
+    <script src="/assets/js/app.js"></script> 
   </body>
 </html>

@@ -65,18 +65,18 @@ html.landing,
   border-radius: 256px
 }
 
-.landing .badge .contact {
+.landing .badge .side-resume {
   font-size: 1.125em;
   font-weight: 700;
   text-align: right
 }
 
-.landing .badge .contact a {
+.landing .badge .badge a {
   display: inline-block;
   padding-left: .5rem
 }
 
-.landing .badge .contact a::before {
+.landing .badge .badge a::before {
   font-weight: 400
 }
 
@@ -106,7 +106,7 @@ html.landing,
       align-items: center;
       border-right: none
   }
-  .landing .badge .contact {
+  .landing .badge .side-resume {
       text-align: center
   }
 }
@@ -206,12 +206,64 @@ a.symbol:before {
   font-size: 1.125rem
 }
 
-.resume .contact {
+.resume .side-resume {
   flex-shrink: 0;
   text-align: right
 }
 
-.resume .contact a {
+.resume .side-resume .switch {
+  top: 10px;
+}
+
+label.switch input[type=checkbox] {
+  display:none
+ }
+ label.switch input[type=checkbox]:checked+span:before {
+  background-color:rgba(29,161,235,.5)
+ }
+ label.switch input[type=checkbox]:checked+span:after {
+  background-color:#1da1eb;
+  transform:translate(80%,-50%)
+ }
+ label.switch input[type=checkbox]+span {
+  position:relative;
+  cursor:pointer;
+  font-weight:500;
+  text-align:right;
+  margin:0;
+  padding:0 0 0 44px
+ }
+ label.switch input[type=checkbox]+span:after,
+ label.switch input[type=checkbox]+span:before {
+  content:"";
+  cursor:pointer;
+  position:absolute;
+  margin:0;
+  outline:0;
+  top:50%;
+  transform:translateY(-50%);
+  transition:all .2s ease-out
+ }
+ label.switch input[type=checkbox]+span:before {
+  left:1px;
+  width:34px;
+  height:14px;
+  background-color:rgba(29,161,235,.5);
+  border-radius:8px
+ }
+ label.switch input[type=checkbox]+span:after {
+  left:0;
+  width:20px;
+  height:20px;
+  background-color:#1da1eb;
+  border-radius:50%;
+  box-shadow:0 3px 1px -2px rgba(0,0,0,.3),0 2px 2px 0 rgba(0,0,0,.098),0 1px 5px 0 rgba(0,0,0,.084)
+ }
+ label.switch input[type=checkbox]:checked+span label.switch input[type=checkbox]:after {
+  transform:translate(80%,-50%)
+ }
+ 
+.resume .badge a {
   display: block
 }
 
