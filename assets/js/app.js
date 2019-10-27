@@ -1,4 +1,4 @@
-let lang = false;
+let lang = true;
 
 const configs = {
   language: [
@@ -26,8 +26,8 @@ const configs = {
     'Engenheiro de Software,'
   ],
   roleOneOrg: [
-    'College Teammates',
-    'Colegas de Faculdade',
+    'College staff',
+    'Equipe da faculdade',
   ],
   startDateOne: [
     'February 2014',
