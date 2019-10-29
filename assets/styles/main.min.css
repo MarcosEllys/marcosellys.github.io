@@ -262,7 +262,7 @@ label.switch input[type=checkbox] {
  label.switch input[type=checkbox]:checked+span label.switch input[type=checkbox]:after {
   transform:translate(80%,-50%)
  }
- 
+
 .resume .badge a {
   display: block
 }
@@ -344,6 +344,9 @@ label.switch input[type=checkbox] {
   .resume .dates,
   .resume section .description {
       color: #000!important
+  }
+  .no-print {
+    display:none;
   }
 }
 
