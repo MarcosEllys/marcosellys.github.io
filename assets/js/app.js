@@ -26,8 +26,8 @@ const configs = {
     'Engenheiro de Software,'
   ],
   roleOneOrg: [
-    'College staff',
-    'Equipe da faculdade',
+    'SUAC (Unified Social Assistance System)',
+    'SUAC (Sistema Único de Assistência Social)'
   ],
   startDateOne: [
     'February 2014',
