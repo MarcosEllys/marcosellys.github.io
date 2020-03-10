@@ -13,6 +13,10 @@ const configs = {
     'About',
     'Sobre'
   ],
+  projects: [
+    'Projects',
+    'Projetos'
+  ],
   description: [
     'Software Development Engineer, graduate in ADS by FVS with expertise in Angular working with @nodejs stack, enthusiast Open Source and Free Software.',
     'Engenheiro em Desenvolvimento de Software, graduado em ADS pela FVS com expertise em Angular trabalhando com @nodejs stack, entusiasta em Open Source e Software Livre.'
@@ -134,8 +138,8 @@ const configs = {
     'Especialista em análise, design, implementação e atualização de sistemas web.'
   ],
   descriptionOpenSource: [
-    'With experience in open source projects, he already contributes to community and private companies projects like Globo.com',
-    'Com experiência em projetos open source, já contribui para projetos da comunide e de empresas privadas como Globo.com'
+    'With experience in open source projects and privates, i already contributes to community and private companies projects like Globo.com.',
+    'Com experiência em projetos open source e privados, eu já contribui para projetos da comunide e de empresas privadas como Globo.com.'
   ],
   descriptionOpenSourceOne: [
     'A newman html report template which contains request and response details (body plus http headers) in the report. (similar what you could get with the newman v2 -O out option).',
@@ -152,6 +156,22 @@ const configs = {
   descriptionOpenSourceOneRef3: [
     'Contains filter search.',
     'Contém pesquisa com filtros.',
+  ],
+  descriptionOpenSourceTwo: [
+    'A simple PWA with the animal catalog and the technical sheet of each, with cute information provided by my children.',
+    'Uma simples  PWA com o catálogo de animais e a ficha técnica  de cada, com informações fofinhas fornecidas pelos meus filhos.'
+  ],
+  descriptionOpenSourceTwoRef1: [
+    'Pretty cool interface.',
+    'Interface bem legal.',
+  ],
+  descriptionOpenSourceTwoRef2: [
+    'Beautiful animations.',
+    'Bonitas animações.',
+  ],
+  descriptionOpenSourceTwoRef3: [
+    'Progessive Web App.',
+    'Progessive Web App.',
   ]
 }
 
