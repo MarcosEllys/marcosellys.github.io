@@ -62,8 +62,8 @@ const configs = {
     'até o momento'
   ],
   descriptionBusinessTwo: [
-    'Brisanet is the 9th largest internet provider in Brazil.',
-    'A Brisanet é a 9ª maior provedora de internet do Brasil.'
+    'Brisanet is the 5th largest internet provider in Brazil.',
+    'A Brisanet é a 5ª maior provedora de internet do Brasil.'
   ],
   descriptionBusinessTwoRef1: [
     'Works with a highly trained team to deliver incredible products.',
@@ -106,20 +106,24 @@ const configs = {
     'Servidores (Apache, Nginx).'
   ],
   talentDescribeThree: [
-    'Databases (Postgres, MongoDB, Firebase).',
-    'Bancos de Dados (Postgres, MongoDB, Firebase).'
+    'Databases (Postgres, MongoDB, Redis, Firebase).',
+    'Bancos de Dados (Postgres, MongoDB, Redis, Firebase).'
   ],
   talentDescribeFour: [
     'Version Control (Git preferred).',
     'Controle de Versão (Git prefido).'
   ],
   talentDescribeFive: [
-    'Tracking (GitHub, Jira, Gitlab).',
-    'Rastreamento (GitHub, Jira, Gitlab).'
+    'Tracking (GitHub, Bitbucket, Jira, Gitlab).',
+    'Rastreamento (GitHub, Bitbucket, Jira, Gitlab).'
   ],
   talentDescribeSix: [
     'Editors (VSCode, Sublime, Atom).',
     'Editores (VSCode, Sublime, Atom).'
+  ],
+  talentDescribeSeven: [
+    'Database administration (pgAdmin 3 and 4, DBeaver, DataGrip).',
+    'Administração de banco de dados (pgAdmin 3 and 4, DBeaver, DataGrip).',
   ],
   formation: [
     'Education',
@@ -134,8 +138,8 @@ const configs = {
     'Graduado em 2014'
   ],
   skillsDescritption: [
-    'Expert in analyze, design, implement and update web systems.',
-    'Especialista em análise, design, implementação e atualização de sistemas web.'
+    'Specialist in computational tools and project methodologies in systems production. Use programming languages and methodologies in the construction of projects, paying attention to quality, usability, robustness, integrity and security.',
+    'Especialista em ferramentas computacionais e metodologias de projetos na produção de sistemas. Utilizando linguagens de programação e metodologias na construção de projetos, atento a qualidade, usabilidade, robustez, integridade e segurança.'
   ],
   descriptionOpenSource: [
     'With experience in open source projects and privates, i already contributes to community and private companies projects like Globo.com.',
