@@ -170,8 +170,8 @@ const configs = {
     'Bonitas animações.',
   ],
   descriptionOpenSourceTwoRef3: [
-    'Progessive Web App.',
-    'Progessive Web App.',
+    'Progressive Web App.',
+    'Progressive Web App.',
   ]
 }
 
