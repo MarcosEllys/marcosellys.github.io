@@ -66,16 +66,24 @@ const configs = {
     'A Brisanet é a 5ª maior provedora de internet do Brasil.'
   ],
   descriptionBusinessTwoRef1: [
-    'Works with a highly trained team to deliver incredible products.',
-    'Trabalha com uma equipe altamente treinada para entregar produtos incríveis.'
+    'Experience in project management using agile methodologies Scrum, Kanban and LEAN.',
+    'Experiência em gerenciamento de projetos utilizando as metodologias agéis Scrum, Kanban and LEAN.'
   ],
   descriptionBusinessTwoRef2: [
+    'Expert in version control, code review and CI.',
+    'Especialista em controle de versão, revisão de código e CI.'
+  ],
+  descriptionBusinessTwoRef3: [
     'Serves as a developer for Javascript and all web technologies.',
     'Trabalha como desenvolvedor Javascript e com as todas tecnologias da web.'
   ],
-  descriptionBusinessTwoRef3: [
-    'Expert in version control, code review and CI.',
-    'Especialista em controle de versão, revisão de código e CI.'
+  descriptionBusinessTwoRef4: [
+    'Worked with dashboard, graph and map systems.',
+    'Trabalhou com sistemas de dashboards, gráficos e mapas.'
+  ],
+  descriptionBusinessTwoRef5  : [
+    'Works with a highly trained team to deliver incredible products.',
+    'Trabalha com uma equipe altamente treinada para entregar produtos incríveis.'
   ],
   talent: [
     'Skills',
