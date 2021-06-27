@@ -58,8 +58,8 @@ const configs = {
     'Março de 2015'
   ],
   endDateTwo: [
-    'present',
-    'até o momento'
+    'June 2021',
+    'Junho de '
   ],
   descriptionBusinessTwo: [
     'Brisanet is the 5th largest internet provider in Brazil.',
@@ -81,9 +81,33 @@ const configs = {
     'Worked with dashboard, graph and map systems.',
     'Trabalhou com sistemas de dashboards, gráficos e mapas.'
   ],
-  descriptionBusinessTwoRef5  : [
-    'Works with a highly trained team to deliver incredible products.',
-    'Trabalha com uma equipe altamente treinada para entregar produtos incríveis.'
+  descriptionBusinessTwoRef5: [
+    'Worked with a highly trained team to deliver incredible products.',
+    'Trabalhou com uma equipe altamente treinada para entregar produtos incríveis.'
+  ],
+  roleThree: [
+    'Software Engineer,',
+    'Engenheiro de Software,'
+  ],
+  startDateThree: [
+    'July 2021',
+    'Julho de 2021'
+  ],
+  endDateThree: [
+    'present',
+    'até o momento'
+  ],
+  descriptionBusinessThree: [
+    'Business group focused on developing agility, productivity and innovation.',
+    'Grupo empresarial com foco em desenvolver a agilidade, produtividade e inovação.'
+  ],
+  descriptionBusinessThreeRef1: [
+    'Member of the new technologies sector, working with complex and innovative projects.',
+    'Membro do setor de novas tecnologias, trabalhando com projetos complexos e inovadores.'
+  ],
+  descriptionBusinessThreeRef2: [
+    'works in a multidisciplinary team.',
+    'trabalha em um time multidisciplinar.'
   ],
   talent: [
     'Skills',
