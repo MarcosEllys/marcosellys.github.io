@@ -345,6 +345,15 @@ label.switch input[type=checkbox] {
   .resume section .description {
       color: #000!important
   }
+  .resume section {
+    padding: 1rem 0;
+  }
+  .resume h2 {
+    margin-bottom: 1rem
+  }
+  .resume section>ul>li {
+    margin: 1rem 0
+  }
   .no-print {
     display:none;
   }

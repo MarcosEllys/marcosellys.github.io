@@ -18,8 +18,15 @@ const configs = {
     'Projetos'
   ],
   description: [
-    'Software Development Engineer, graduate in ADS by FVS with expertise in Angular working with @nodejs stack, enthusiast Open Source and Free Software.',
-    'Engenheiro em Desenvolvimento de Software, graduado em ADS pela FVS com expertise em Angular trabalhando com @nodejs stack, entusiasta em Open Source e Software Livre.'
+    `Software Engineer, graduated in Systems Analysis and Development from Centro Universitário Vale do Salgado, having worked most of the time with Node.js and PostgreSQL in the Back-end and passed through several frameworks and libraries for building applications in the Front-end since Jquery, ExtJS, Backbone, AngularJS and currently Angular.
+     <br>
+      I currently work as a full stack in a multidisciplinary team using Java Spring Boot, Oracle and Angular technologies at the front. This combination of using a robust and reliable language with Spring that has consolidated itself as one of the best alternatives in the Java world with the new versions of Angular that allows me to use all the premises of Object Orientation together with reactive programming allows me to build robust, reactive and reliable applications .
+    `,
+    `
+     Engenheiro de Software, graduado em Análise e Desenvolvimento de sistemas pelo Centro Universitário Vale do Salgado, tendo trabalhado a maior parte do tempo com Node.js e PostgreSQL no Back-end e passado por vários frameworks e bibliotecas para construção de aplicações no Front-end desde Jquery, ExtJS, Backbone, AngularJS e atualmente Angular.
+     <br>
+     Atualmente trabalho como full stack em um time multidisciplinar utilizando Java Spring Boot, tecnologias Oracle e Angular no front. Essa combinação de utilizar uma linguagem robusta e confiável com Spring que se consolidou uma das melhores alternativas no mundo Java com as novas versões do Angular que permite utilizar todas as premissas da Orientação a Objetos juntamente com programação reativa me possibilita construir aplicações robustas, reativas e confiaveis.
+    `
   ],
   level: [
     'Experience',
@@ -78,12 +85,12 @@ const configs = {
     'Trabalha como desenvolvedor Javascript e com as todas tecnologias da web.'
   ],
   descriptionBusinessTwoRef4: [
-    'Worked with dashboard, graph and map systems.',
+    'Worked with dashboard, graph and systems with map.',
     'Trabalhou com sistemas de dashboards, gráficos e mapas.'
   ],
   descriptionBusinessTwoRef5: [
-    'Worked with a highly trained team to deliver incredible products.',
-    'Trabalhou com uma equipe altamente treinada para entregar produtos incríveis.'
+    'Experience in complex systems incl. multiple permissions and authorizations .',
+    'Experiência em sistemas complexos incl. múltiplas permissões e autorizações.'
   ],
   roleThree: [
     'Software Engineer,',
@@ -108,6 +115,10 @@ const configs = {
   descriptionBusinessThreeRef2: [
     'works in a multidisciplinary team.',
     'trabalha em um time multidisciplinar.'
+  ],
+  descriptionBusinessThreeRef3: [
+    'Works as a full stack developer using Java and Typescript. ',
+    'Trabalha como desenvolvedor full stack utilizando Java e Typescript..'
   ],
   talent: [
     'Skills',
@@ -138,8 +149,8 @@ const configs = {
     'Servidores (Apache, Nginx).'
   ],
   talentDescribeThree: [
-    'Databases (Postgres, MongoDB, Redis, Firebase).',
-    'Bancos de Dados (Postgres, MongoDB, Redis, Firebase).'
+    'Databases (Oracle 11g, Postgres, Redis, Firebase).',
+    'Bancos de Dados (Oracle 11g, Postgres, Redis, Firebase).'
   ],
   talentDescribeFour: [
     'Version Control (Git preferred).',
@@ -150,8 +161,8 @@ const configs = {
     'Rastreamento (GitHub, Bitbucket, Jira, Gitlab).'
   ],
   talentDescribeSix: [
-    'Editors (VSCode, Sublime, Atom).',
-    'Editores (VSCode, Sublime, Atom).'
+    'Editors (VSCode, IntelliJ, Sublime).',
+    'Editores (VSCode, IntelliJ, Sublime).'
   ],
   talentDescribeSeven: [
     'Database administration (pgAdmin 3 and 4, DBeaver, DataGrip).',
@@ -168,6 +179,46 @@ const configs = {
   graduatedDate: [
     'Graduated in 2014',
     'Graduado em 2014'
+  ],
+  courseOne: [
+    'Remote Team Management ',
+    'Gestão de Equipes Remotas'
+  ],
+  courseOneDate: [
+    'May 2021',
+    'Maio de 2021'
+  ],
+  courseOneDescription: [
+    'Course with the main objective is to present concepts, tools and techniques to effectively manage remote teams.',
+    'Curso com o objetivo principal é apresentar conceitos, ferramentas e técnicas para gerenciar, efetivamente, equipes remotas. '
+  ],
+  skillsDescritption: [
+    'Specialist in computational tools and project methodologies in systems production. Use programming languages and methodologies in the construction of projects, paying attention to quality, usability, robustness, integrity and security.',
+    'Especialista em ferramentas computacionais e metodologias de projetos na produção de sistemas. Utilizando linguagens de programação e metodologias na construção de projetos, atento a qualidade, usabilidade, robustez, integridade e segurança.'
+  ],
+  courseTwo: [
+    'Scrum Fundamentals Certified',
+    'Scrum Fundamentals Certified'
+  ],
+  courseTwoDate: [
+    'Jun 2021',
+    'Junho de 2021'
+  ],
+  courseTwoDescription: [
+    'Scrum Fundamentals Certified course is tailored to help anyone interested to know more about Scrum; learn about key concepts in Scrum as defined in the SBOK® Guide; and to get a basic understanding of how Scrum framework works in delivering successful projects.',
+    'Scrum Fundamentals Certified course is tailored to help anyone interested to know more about Scrum; learn about key concepts in Scrum as defined in the SBOK® Guide; and to get a basic understanding of how Scrum framework works in delivering successful projects.'
+  ],
+  courseThree: [
+    'DevOps & Agile Culture',
+    'DevOps & Agile Culture'
+  ],
+  courseThreeDate: [
+    'Jul 2021',
+    'Julho de 2021'
+  ],
+  courseThreeDescription: [
+    'Scrum Fundamentals Certified course is tailored to help anyone interested to know more about Scrum; learn about key concepts in Scrum as defined in the SBOK® Guide; and to get a basic understanding of how Scrum framework works in delivering successful projects.',
+    'Scrum Fundamentals Certified course is tailored to help anyone interested to know more about Scrum; learn about key concepts in Scrum as defined in the SBOK® Guide; and to get a basic understanding of how Scrum framework works in delivering successful projects.'
   ],
   skillsDescritption: [
     'Specialist in computational tools and project methodologies in systems production. Use programming languages and methodologies in the construction of projects, paying attention to quality, usability, robustness, integrity and security.',

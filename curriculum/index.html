@@ -23,6 +23,7 @@
         <h1 itemprop="name"><a href="/">Marcos Ellys</a></h1>
         <div itemprop="jobTitle" data-binding="role"></div>
         <a class="email" href="mailto:marcos.ellys@gmail.com" itemprop="email">marcos.ellys@gmail.com</a>
+        <a class="email" href="https://www.linkedin.com/in/marcosellys/" itemprop="linkedin">https://www.linkedin.com/in/marcosellys/</a>
       </div>
       <div class="no-print side-resume">
         <label class="switch"><input type="checkbox" class="is-warning" onclick="changeLang()"> <span data-binding="language"></span></label>
@@ -54,6 +55,7 @@
                 <ul>
                   <li data-binding="descriptionBusinessThreeRef1"></li>
                   <li data-binding="descriptionBusinessThreeRef2"></li>
+                  <li data-binding="descriptionBusinessThreeRef3"></li>
                 </ul>
               </div>
             </li>
@@ -115,6 +117,7 @@
               </h3>
               <div class="description" itemprop="description">
                 <ul>
+                  <li>JAVA (incl. Spring Boot, Junit).</li>
                   <li>Node.js (incl. Meteor, Express, Adonis, Hapi).</li>
                   <li>PHP (incl. Laravel).</li>
                 </ul>
@@ -155,12 +158,48 @@
               <h3>
                 <span class="roleName" itemprop="roleName" data-binding="roleName"></span>
                 <span itemprop="memberOf" itemscope itemtype="http://schema.org/EducationalOrganization">
-                  <span itemprop="name"><a itemprop="url" href="http://www.fvs.edu.br/">Faculdade vale do Salgado</a></span>
+                  <span itemprop="name"><a itemprop="url" href="https://www.univs.edu.br/">Centro Universitário Vale do Salgado</a></span>
                 </span>
               </h3>
               <div class="dates" data-binding="graduatedDate"></div>
               <div class="description" itemprop="description">
                 <div data-binding="skillsDescritption"></div>
+              </div>
+            </li>
+            <li itemprop="memberOf" itemscope itemtype="http://schema.org/OrganizationRole">
+              <h3>
+                <span class="roleName" itemprop="roleName" data-binding="courseOne"></span>
+                <span itemprop="memberOf" itemscope itemtype="http://schema.org/EducationalOrganization">
+                  <span itemprop="name"><a itemprop="url" href="https://www.mackenzie.br/">Universidade Presbiteriana Mackenzie</a></span>
+                </span>
+              </h3>
+              <div class="dates" data-binding="courseOneDate"></div>
+              <div class="description" itemprop="description">
+                <div data-binding="courseOneDescription"></div>
+              </div>
+            </li>
+            <li itemprop="memberOf" itemscope itemtype="http://schema.org/OrganizationRole">
+              <h3>
+                <span class="roleName" itemprop="roleName" data-binding="courseTwo"></span>
+                <span itemprop="memberOf" itemscope itemtype="http://schema.org/EducationalOrganization">
+                  <span itemprop="name"><a itemprop="url" href="https://www.mackenzie.br/">Universidade Presbiteriana Mackenzie</a></span>
+                </span>
+              </h3>
+              <div class="dates" data-binding="courseTwoDate"></div>
+              <div class="description" itemprop="description">
+                <div data-binding="courseTwoDescription"></div>
+              </div>
+            </li>
+            <li itemprop="memberOf" itemscope itemtype="http://schema.org/OrganizationRole">
+              <h3>
+                <span class="roleName" itemprop="roleName" data-binding="courseThree"></span>
+                <span itemprop="memberOf" itemscope itemtype="http://schema.org/EducationalOrganization">
+                  <span itemprop="name"><a itemprop="url" href="https://www.mackenzie.br/">Universidade Presbiteriana Mackenzie</a></span>
+                </span>
+              </h3>
+              <div class="dates" data-binding="courseThreeDate"></div>
+              <div class="description" itemprop="description">
+                <div data-binding="courseThreeDescription"></div>
               </div>
             </li>
           </ul>
