@@ -290,7 +290,7 @@ label.switch input[type=checkbox] {
 }
 
 .resume section>ul>li {
-  margin: 1.6875rem 0
+  margin: 0.5rem 0
 }
 
 .resume section>ul>li:last-child {
@@ -308,7 +308,6 @@ label.switch input[type=checkbox] {
 
 .resume section h3 {
   display: inline-block;
-  margin-bottom: .5625rem
 }
 
 .resume section .dates {
@@ -327,15 +326,23 @@ label.switch input[type=checkbox] {
 }
 
 @media print {
+  .pagebreak { page-break-before: always; }
+
   @page {
       size: 210mm 297mm;
       margin: .5in
+  }
+  .resume .badge h1 {
+    word-spacing: initial;
+  }
+  .resume .badge div {
+    margin-top: 0;
   }
   .resume body {
       padding: 0
   }
   .resume header {
-      padding-top: 0
+      padding-bottom: 5px;
   }
   .resume {
       font-size: 12px
@@ -353,6 +360,11 @@ label.switch input[type=checkbox] {
   }
   .resume section>ul>li {
     margin: 1rem 0
+  }
+  .rb-container ul.rb {
+    margin: .1em 0;
+    padding: 0;
+    display: inline-block;
   }
   .no-print {
     display:none;
@@ -386,4 +398,65 @@ a.symbol:before {
   content: attr(icon);
   margin-right: 0.3em;
   font-size: 130%;
+}
+
+/* Timeline */
+
+.rb-container {
+  width: 100%;
+  margin: auto;
+  display: block;
+  position: relative;
+}
+
+.rb-container ul.rb {
+  margin: .4em 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.rb-container ul.rb li {
+  list-style: none;
+  margin: auto;
+  margin-left: 2em;
+  border-left: 3px solid #f5f5f5;
+  padding: 0 0 0 30px;
+  position: relative;
+}
+
+.rb-container ul.rb li:last-child {
+  border-left: 0;
+}
+
+.rb-container ul.rb li::before {
+  position: absolute;
+  left: -18px;
+  top: -5px;
+  content: " ";
+  border: 8px solid rgba(255, 255, 255, 1);
+  border-radius: 500%;
+  background: #b2b2b2;
+  height: 20px;
+  width: 20px;
+  transition: all 500ms ease-in-out;
+}
+
+ul.rb li .role {
+  color: #000;
+  position: relative;
+  width: 100%;
+  font-size: .920rem;
+}
+
+ul.rb li .timestamp {
+  color: #666666;
+  position: relative;
+  width: 100%;
+  font-size: 12px;
+}
+ul.rb li .item-description {
+  line-height: 1em;
+}
+ul.rb li .item-description p {
+  margin: 5px;
 }

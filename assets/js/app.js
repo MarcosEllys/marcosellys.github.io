@@ -18,12 +18,12 @@ const configs = {
     'Projetos'
   ],
   description: [
-    `Software Engineer, graduated in Systems Analysis and Development from Centro Universitário Vale do Salgado, having worked most of the time with Node.js and PostgreSQL in the Back-end and passed through several frameworks and libraries for building applications in the Front-end since Jquery, ExtJS, Backbone, AngularJS and currently Angular.
+    `Software Engineer, graduated in Systems Analysis and Development from Centro Universitário Vale do Salgado, having worked most of the time with Node.js and PostgreSQL in the Back-end and passed through several frameworks and libraries for building applications in the Front-end since Jquery, ExtJS, Backbone, AngularJS and Angular.
      <br>
       I currently work as a full stack in a multidisciplinary team using Java Spring Boot, Oracle and Angular technologies at the front. This combination of using a robust and reliable language with Spring that has consolidated itself as one of the best alternatives in the Java world with the new versions of Angular that allows me to use all the premises of Object Orientation together with reactive programming allows me to build robust, reactive and reliable applications .
     `,
     `
-     Engenheiro de Software, graduado em Análise e Desenvolvimento de sistemas pelo Centro Universitário Vale do Salgado, tendo trabalhado a maior parte do tempo com Node.js e PostgreSQL no Back-end e passado por vários frameworks e bibliotecas para construção de aplicações no Front-end desde Jquery, ExtJS, Backbone, AngularJS e atualmente Angular.
+     Engenheiro de Software, graduado em Análise e Desenvolvimento de sistemas pelo Centro Universitário Vale do Salgado, tendo trabalhado a maior parte do tempo com Node.js e PostgreSQL no Back-end e passado por vários frameworks e bibliotecas para construção de aplicações no Front-end desde Jquery, ExtJS, Backbone, AngularJS e Angular.
      <br>
      Atualmente trabalho como full stack em um time multidisciplinar utilizando Java Spring Boot, tecnologias Oracle e Angular no front. Essa combinação de utilizar uma linguagem robusta e confiável com Spring que se consolidou uma das melhores alternativas no mundo Java com as novas versões do Angular que permite utilizar todas as premissas da Orientação a Objetos juntamente com programação reativa me possibilita construir aplicações robustas, reativas e confiaveis.
     `
@@ -53,44 +53,133 @@ const configs = {
     'Desenvolvedor líder responsável pela stack de tecnologias e padrões de design.'
   ],
   descriptionBusinessOneRef2: [
-    'Worked as a php developer and with all web technologies.',
+    'Worked as a php developer and all web technologies.',
     'Trabalhou como desenvolvedor php e com as todas tecnologias da web.'
-  ],
-  roleTwo: [
-    'Software Engineer,',
-    'Engenheiro de Software,'
-  ],
-  startDateTwo: [
-    'March 2015',
-    'Março de 2015'
-  ],
-  endDateTwo: [
-    'June 2021',
-    'Junho de '
   ],
   descriptionBusinessTwo: [
     'Brisanet is the 5th largest internet provider in Brazil.',
     'A Brisanet é a 5ª maior provedora de internet do Brasil.'
   ],
-  descriptionBusinessTwoRef1: [
-    'Experience in project management using agile methodologies Scrum, Kanban and LEAN.',
-    'Experiência em gerenciamento de projetos utilizando as metodologias agéis Scrum, Kanban and LEAN.'
+  descriptionBusinessTwoDescription1: [
+    'Junior Software Developer',
+    'Desenvolvedor de Software Junior',
   ],
-  descriptionBusinessTwoRef2: [
-    'Expert in version control, code review and CI.',
-    'Especialista em controle de versão, revisão de código e CI.'
+  descriptionBusinessTwoDescription1Start: [
+    'March 2015',
+    'Março de 2015'
   ],
-  descriptionBusinessTwoRef3: [
-    'Serves as a developer for Javascript and all web technologies.',
-    'Trabalha como desenvolvedor Javascript e com as todas tecnologias da web.'
+  descriptionBusinessTwoDescription1End: [
+    'february 2016',
+    'Fevereiro de 2016'
   ],
-  descriptionBusinessTwoRef4: [
-    'Worked with dashboard, graph and systems with map.',
-    'Trabalhou com sistemas de dashboards, gráficos e mapas.'
+  descriptionBusinessTwoRef1_1: [
+    '- Working as a Front-end using the ExtJS framework I was responsible for developing OTT middleware applications for IPTV and online platform management, having as some of the features: Registration and management of channels, packages, covers, descriptions and programming guides.',
+    '- Trabalhando como Front-end utilizando o framework ExtJS fui responsável por desenvolver aplicações middleware OTT para IPTV e gerenciamento de plataforma online, tendo como algumas das funcionalidades: Cadastro e gerenciamento de canais, pacotes, capas, descrições e guias de programação.',
   ],
-  descriptionBusinessTwoRef5: [
-    'Experience in complex systems incl. multiple permissions and authorizations .',
-    'Experiência em sistemas complexos incl. múltiplas permissões e autorizações.'
+  descriptionBusinessTwoRef1_2: [
+    '- Responsible for performing functional testing, usability testing and integration testing.',
+    '- Responsável por realizar testes funcionais, testes de usabilidade e testes de integração.'
+  ],
+  descriptionBusinessTwoRef1_3: [
+    '- Responsible for implementing new features, improvements and bug fixes.',
+    '- Responsável por implementar novas funcionalidades, melhorias e correções de bug.',
+  ],
+  descriptionBusinessTwoRef1_4: [
+    '- Responsible for training, training and developing platform administrators so that they could act with autonomy, flexibility and agility.',
+    '- Responsável por treinar, capacitar e desenvolver administradores da plataforma para que pudessem agir com autonomia, flexibilidade e agilidade.',
+  ],
+  descriptionBusinessTwoDescription2: [
+    'Middle Front-end Developer',
+    'Desenvolvedor Front-end Pleno',
+  ],
+  descriptionBusinessTwoDescription2Start: [
+    'March 2016',
+    'Março de 2016'
+  ],
+  descriptionBusinessTwoDescription2End: [
+    'february 2018',
+    'Fevereiro de 2018'
+  ],
+  descriptionBusinessTwoRef2_1: [
+    '- Front-end developer working on fixing, creation and improvement of new components and processes using AngularJS and ExtJS frameworks.',
+    '- Desenvolvedor Front-end atuando na correção, criação e melhoria de novos componentes e processos utilizando os frameworks AngularJS e ExtJS.',
+  ],
+  descriptionBusinessTwoRef2_2: [
+    '- Responsible for structuring and implementing the authentication and authorization system.',
+    '- Responsável por estruturar e implementar o sistema de autenticação e autorização.',
+  ],
+  descriptionBusinessTwoRef2_3: [
+    '- Responsible for implementing reports and dashboards with graphs, tables and lists using GeoJSON, D3.js, JsPDF.',
+    '- Responsável por implementar relatórios e dashboards com gráficos, tabelas e listas utilizando GeoJSON, D3.js, JsPDF.',
+  ],
+  descriptionBusinessTwoRef2_4: [
+    '- Responsible for conducting code review.',
+    '- Responsável por realizar revisão de código.',
+  ],
+  descriptionBusinessTwoDescription3: [
+    'Desenvolvedor Full Stack Back-End middle level',
+    'Desenvolvedor Full Stack Back-End middle level',
+  ],
+  descriptionBusinessTwoDescription3Start: [
+    'March 2018',
+    'Março de 2018'
+  ],
+  descriptionBusinessTwoDescription3End: [
+    'february 2020',
+    'Fevereiro de 2020'
+  ],
+  descriptionBusinessTwoRef3_1: [
+    '- Mainly using Node, Typescript, Angular and Perl technologies, I worked on several projects adding new features and performing integrations.',
+    '- Utilizando principalmente as tecnologias Node, Typescript, Angular e Perl atuei em vários projetos adicionando novas funcionalidades e realizando integrações.',
+  ],
+  descriptionBusinessTwoRef3_2: [
+    '- Developer responsible for researching, testing, validating and implementing new technologies and tools.',
+    '- Desenvolvedor responsável por pesquisar, testar, validar e implementar novas tecnologias e ferramentas.',
+  ],
+  descriptionBusinessTwoRef3_3: [
+    '- Working in multiple teams, he contributed to the CRM project that managed the entire lifecycle of customers, interactions via ticket and equipment management of the FTTH network.',
+    '- Atuando em multiplos times contribui para o projeto de CRM que gerenciava todo o ciclo de vida dos clientes, interações via chamado e gerenciamento de equipamentos da rede FTTH.',
+  ],
+  descriptionBusinessTwoRef3_4: [
+    '- Developer in the monitoring project of the company\'s entire FTTH network, including monitoring the status of the UN (Optical Network Unit), PON and OLTs Slots.',
+    '- Desenvolvedor no projeto de monitoramento de toda a rede FTTH da empresa, incluindo o monitoramento do status das ONU (Optical Network Unit), PON e Slots das OLTs.',
+  ],
+  descriptionBusinessTwoRef3_5: [
+    '- Technical leader of the CRM project working with stakeholders and everyone involved in the integration of new features and fixes.',
+    '- Líder técnico do projeto de CRM atuando com os stackeholders e todos os envolvidos na integração de novas funcionalidades e correções.',
+  ],
+
+  descriptionBusinessTwoDescription4: [
+    'Expert systems developer',
+    'Desenvolvedor de sistemas especialista',
+  ],
+  descriptionBusinessTwoDescription4Start: [
+    'March 2020',
+    'Março de 2020'
+  ],
+  descriptionBusinessTwoDescription4End: [
+    'June 2021',
+    'Junho de 2021'
+  ],
+  descriptionBusinessTwoRef4_1: [
+    '- Acting as an expert developer I participated in several teams directing implementations and assisting in new integrations. ',
+    '- Atuando como desenvolvedor especialista participei de várias equipes direcionando implementações e auxiliando em novas integrações.',
+  ],
+  descriptionBusinessTwoRef4_2: [
+    '- I worked on the implementation and integration of the company\'s private chat using Rocket.Chat.',
+    '- Atuei na implementação e integração do chat privado da empresa utilizando Rocket.Chat.',
+  ],
+  descriptionBusinessTwoRef4_3: [
+    '- Using the Kanban methodology, I worked directly on the development of the SSO (Single sign-on) project, I helped all teams in the integration, unifying and centralizing the users session.',
+    '- Utilizando a metodologia Kanban atuei diretamente no desenvolvimento do projeto SSO (Single sign-on), auxiliei todos os times na integrção unificando e centralizando a sessão dos usuários.',
+  ],
+  descriptionBusinessTwoRef4_4: [
+    '- I was part of the team that coordinated and created the styles, components, services library and the authorization part, centralizing the entire knowledge base used by all teams.',
+    '- Participei da equipe que coordenou e criou a biblioteca de styles, components, services e a parte de autorização, centralizando toda a base de conhecimento utilizada por todas as equipes.',
+  ],
+  descriptionBusinessTwoRef4_5: [
+    '- I was part of the team that designed, implemented and evolved the Dashboards system, a Server-Driven UI system for reports, cards and graphics.',
+    '- Fiz parte do time que projetou, implementou e evoluiu o sistema de Dashboards, um sistema Server-Driven UI de relatórios, cards e gráficos.',
   ],
   roleThree: [
     'Software Engineer,',
@@ -121,8 +210,8 @@ const configs = {
     'Trabalha como desenvolvedor full stack utilizando Java e Typescript..'
   ],
   talent: [
-    'Skills',
-    'Habilidades'
+    'Hard Skills',
+    'Habilidades técnicas'
   ],
   talent1: [
     'Web Platform',
@@ -152,17 +241,13 @@ const configs = {
     'Databases (Oracle 11g, Postgres, Redis, Firebase).',
     'Bancos de Dados (Oracle 11g, Postgres, Redis, Firebase).'
   ],
-  talentDescribeFour: [
-    'Version Control (Git preferred).',
-    'Controle de Versão (Git prefido).'
-  ],
   talentDescribeFive: [
     'Tracking (GitHub, Bitbucket, Jira, Gitlab).',
     'Rastreamento (GitHub, Bitbucket, Jira, Gitlab).'
   ],
   talentDescribeSix: [
-    'Editors (VSCode, IntelliJ, Sublime).',
-    'Editores (VSCode, IntelliJ, Sublime).'
+    'Editors (VSCode, IntelliJ, Sublime Text).',
+    'Editores (VSCode, IntelliJ, Sublime Text).'
   ],
   talentDescribeSeven: [
     'Database administration (pgAdmin 3 and 4, DBeaver, DataGrip).',
@@ -243,22 +328,6 @@ const configs = {
   descriptionOpenSourceOneRef3: [
     'Contains filter search.',
     'Contém pesquisa com filtros.',
-  ],
-  descriptionOpenSourceTwo: [
-    'A simple PWA with the animal catalog and the technical sheet of each, with cute information provided by my children.',
-    'Uma simples  PWA com o catálogo de animais e a ficha técnica  de cada, com informações fofinhas fornecidas pelos meus filhos.'
-  ],
-  descriptionOpenSourceTwoRef1: [
-    'Pretty cool interface.',
-    'Interface bem legal.',
-  ],
-  descriptionOpenSourceTwoRef2: [
-    'Beautiful animations.',
-    'Bonitas animações.',
-  ],
-  descriptionOpenSourceTwoRef3: [
-    'Progressive Web App.',
-    'Progressive Web App.',
   ]
 }
 

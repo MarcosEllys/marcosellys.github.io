@@ -44,14 +44,14 @@
           <ul>
             <li itemprop="memberOf" itemscope itemtype="http://schema.org/OrganizationRole">
               <h3>
-                <span class="roleName" itemprop="roleName" data-binding="roleThree"></span>
+                <span data-binding="roleThree"></span>
                 <span itemprop="memberOf" itemscope itemtype="http://schema.org/Organization">
                   <span itemprop="name"><a itemprop="url" href="https://grupoportfolio.com.br/">Grupo Portfolio</a></span>
                 </span>
               </h3>
+              <div data-binding="descriptionBusinessThree"></div>
               <div class="dates"><time itemprop="startDate" datetime="2015-03" data-binding="startDateThree"></time> &mdash; <time itemprop="endDate" data-binding="endDateThree"></time></div>
               <div class="description" itemprop="description">
-                <div data-binding="descriptionBusinessThree"></div>
                 <ul>
                   <li data-binding="descriptionBusinessThreeRef1"></li>
                   <li data-binding="descriptionBusinessThreeRef2"></li>
@@ -59,22 +59,72 @@
                 </ul>
               </div>
             </li>
+
             <li itemprop="memberOf" itemscope itemtype="http://schema.org/OrganizationRole">
               <h3>
-                <span class="roleName" itemprop="roleName" data-binding="roleTwo"></span>
                 <span itemprop="memberOf" itemscope itemtype="http://schema.org/Organization">
                   <span itemprop="name"><a itemprop="url" href="https://www.brisanet.com.br">Brisanet Telecomunicações</a></span>
                 </span>
               </h3>
-              <div class="dates"><time itemprop="startDate" datetime="2015-03" data-binding="startDateTwo"></time> &mdash; <time itemprop="endDate" data-binding="endDateTwo"></time></div>
-              <div class="description" itemprop="description">
-                <div data-binding="descriptionBusinessTwo"></div>
-                <ul>
-                  <li data-binding="descriptionBusinessTwoRef1"></li>
-                  <li data-binding="descriptionBusinessTwoRef2"></li>
-                  <li data-binding="descriptionBusinessTwoRef3"></li>
-                  <li data-binding="descriptionBusinessTwoRef4"></li>
-                  <li data-binding="descriptionBusinessTwoRef5"></li>
+              <div data-binding="descriptionBusinessTwo"></div>
+              <div class="rb-container">
+                <ul class="rb">
+                  <li class="rb-item" ng-repeat="itembx">
+                    <div class="role" data-binding="descriptionBusinessTwoDescription4"></div>
+                    <div class="timestamp">
+                      <div class="dates"><time itemprop="startDate" data-binding="descriptionBusinessTwoDescription4Start"></time> &mdash; <time itemprop="endDate" data-binding="descriptionBusinessTwoDescription4End"></time></div>
+                    </div>
+                    <div class="item-description">
+                      <p data-binding="descriptionBusinessTwoRef4_1"></p>
+                      <p data-binding="descriptionBusinessTwoRef4_2"></p>
+                      <p data-binding="descriptionBusinessTwoRef4_3"></p>
+                      <p data-binding="descriptionBusinessTwoRef4_4"></p>
+                      <p data-binding="descriptionBusinessTwoRef4_5"></p>
+                    </div>
+                  </li>
+                </ul>
+                <ul class="rb">
+                  <li class="rb-item" ng-repeat="itembx">
+                    <div class="role" data-binding="descriptionBusinessTwoDescription3"></div>
+                    <div class="timestamp">
+                      <div class="dates"><time itemprop="startDate" data-binding="descriptionBusinessTwoDescription3Start"></time> &mdash; <time itemprop="endDate" data-binding="descriptionBusinessTwoDescription3End"></time></div>
+                    </div>
+                    <div class="item-description">
+                      <p data-binding="descriptionBusinessTwoRef3_1"></p>
+                      <p data-binding="descriptionBusinessTwoRef3_2"></p>
+                      <p data-binding="descriptionBusinessTwoRef3_3"></p>
+                      <p data-binding="descriptionBusinessTwoRef3_4"></p>
+                      <p data-binding="descriptionBusinessTwoRef3_5"></p>
+                    </div>
+                  </li>
+                </ul>
+                <ul class="rb">
+                  <li class="rb-item" ng-repeat="itembx">
+                    <div class="role" data-binding="descriptionBusinessTwoDescription2"></div>
+                    <div class="timestamp">
+                      <div class="dates"><time itemprop="startDate" data-binding="descriptionBusinessTwoDescription2Start"></time> &mdash; <time itemprop="endDate" data-binding="descriptionBusinessTwoDescription2End"></time></div>
+                    </div>
+                    <div class="item-description">
+                      <p data-binding="descriptionBusinessTwoRef2_1"></p>
+                      <p data-binding="descriptionBusinessTwoRef2_2"></p>
+                      <p data-binding="descriptionBusinessTwoRef2_3"></p>
+                      <p data-binding="descriptionBusinessTwoRef2_4"></p>
+                    </div>
+                  </li>
+                </ul>
+                <ul class="rb">
+                  <li class="rb-item" ng-repeat="itembx">
+                    <div class="role" data-binding="descriptionBusinessTwoDescription1"></div>
+                    <div class="timestamp">
+                      <div class="dates"><time itemprop="startDate" data-binding="descriptionBusinessTwoDescription1Start"></time> &mdash; <time itemprop="endDate" data-binding="descriptionBusinessTwoDescription1End"></time></div>
+                    </div>
+                    <div class="item-description">
+                      <p data-binding="descriptionBusinessTwoRef1_1"></p>
+                      <p data-binding="descriptionBusinessTwoRef1_2"></p>
+                      <p data-binding="descriptionBusinessTwoRef1_3"></p>
+                      <p data-binding="descriptionBusinessTwoRef1_4"></p>
+                    </div>
+                  </li>
                 </ul>
               </div>
             </li>
@@ -142,7 +192,6 @@
               </h3>
               <div class="description" itemprop="description">
                 <ul>
-                  <li data-binding="talentDescribeFour"></li>
                   <li data-binding="talentDescribeFive"></li>
                   <li data-binding="talentDescribeSix"></li>
                   <li data-binding="talentDescribeSeven"></li>
@@ -221,22 +270,6 @@
                   <li data-binding="descriptionOpenSourceOneRef1"></li>
                   <li data-binding="descriptionOpenSourceOneRef2"></li>
                   <li data-binding="descriptionOpenSourceOneRef3"></li>
-                </ul>
-              </div>
-            </li>
-            <li>
-              <h3>
-                <span class="roleName" itemprop="roleName" data-binding="roleOne"></span>
-                <span>
-                  <span itemprop="name"><a itemprop="url" href="https://marcosellys.com/zoo/">Álvaro e Apolo Zoo</a></span>
-                </span>
-              </h3>
-              <div class="description" itemprop="description">
-                <div data-binding="descriptionOpenSourceTwo"></div>
-                <ul>
-                  <li data-binding="descriptionOpenSourceTwoRef1"></li>
-                  <li data-binding="descriptionOpenSourceTwoRef2"></li>
-                  <li data-binding="descriptionOpenSourceTwoRef3"></li>
                 </ul>
               </div>
             </li>
