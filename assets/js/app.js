@@ -37,7 +37,7 @@ const configs = {
     'Engenheiro de Software,'
   ],
   roleOneOrg: [
-    'SUAC (Unified Social Assistance System)',
+    'SUAC (Single Social Assistance System)',
     'SUAC (Sistema Único de Assistência Social)'
   ],
   startDateOne: [
@@ -190,8 +190,8 @@ const configs = {
     'Julho de 2021'
   ],
   endDateThree: [
-    'present',
-    'até o momento'
+    'November 2021',
+    'Novembro de 2021'
   ],
   descriptionBusinessThree: [
     'Business group focused on developing agility, productivity and innovation.',
@@ -207,7 +207,32 @@ const configs = {
   ],
   descriptionBusinessThreeRef3: [
     'Works as a full stack developer using Java and Typescript. ',
-    'Trabalha como desenvolvedor full stack utilizando Java e Typescript..'
+    'Trabalha como desenvolvedor full stack utilizando Java e Typescript.'
+  ],
+
+  roleFour: [
+    'Specialist 1 fullstack,',
+    'Especialista 1 fullstack,'
+  ],
+  startDateFour: [
+    'November 2021',
+    'Novembro de 2021'
+  ],
+  endDateFour: [
+    'present',
+    'até o momento'
+  ],
+  descriptionBusinessFour: [
+    'TOTVS is the largest technology company in Brazil',
+    'TOTVS é a maior empresa de tecnologia do Brasil'
+  ],
+  descriptionBusinessFourRef1: [
+    'Angular Specialist responsible for evolving multi-library architectures.',
+    'Especialista em Angular responsável por evoluir arquiteturas multi libs.'
+  ],
+  descriptionBusinessFourRef2: [
+    'Works as a full stack developer using Java and Typescript. ',
+    'Trabalha como desenvolvedor full stack utilizando Java e Typescript.'
   ],
   talent: [
     'Hard Skills',
