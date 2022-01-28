@@ -291,8 +291,8 @@ const configs = {
     'Graduado em 2014'
   ],
   courseOne: [
-    'Remote Team Management ',
-    'Gestão de Equipes Remotas'
+    'Remote Team Management, ',
+    'Gestão de Equipes Remotas, '
   ],
   courseOneDate: [
     'May 2021',
@@ -307,8 +307,8 @@ const configs = {
     'Especialista em ferramentas computacionais e metodologias de projetos na produção de sistemas. Utilizando linguagens de programação e metodologias na construção de projetos, atento a qualidade, usabilidade, robustez, integridade e segurança.'
   ],
   courseTwo: [
-    'Scrum Fundamentals Certified',
-    'Scrum Fundamentals Certified'
+    'Scrum Fundamentals Certified, ',
+    'Scrum Fundamentals Certified, '
   ],
   courseTwoDate: [
     'Jun 2021',
@@ -319,20 +319,40 @@ const configs = {
     'Scrum Fundamentals Certified course is tailored to help anyone interested to know more about Scrum; learn about key concepts in Scrum as defined in the SBOK® Guide; and to get a basic understanding of how Scrum framework works in delivering successful projects.'
   ],
   courseThree: [
-    'DevOps & Agile Culture',
-    'DevOps & Agile Culture'
+    'DevOps & Agile Culture, ',
+    'DevOps & Agile Culture, '
   ],
   courseThreeDate: [
-    'Jul 2021',
+    'July 2021',
     'Julho de 2021'
   ],
   courseThreeDescription: [
     'Scrum Fundamentals Certified course is tailored to help anyone interested to know more about Scrum; learn about key concepts in Scrum as defined in the SBOK® Guide; and to get a basic understanding of how Scrum framework works in delivering successful projects.',
     'Scrum Fundamentals Certified course is tailored to help anyone interested to know more about Scrum; learn about key concepts in Scrum as defined in the SBOK® Guide; and to get a basic understanding of how Scrum framework works in delivering successful projects.'
   ],
-  skillsDescritption: [
-    'Specialist in computational tools and project methodologies in systems production. Use programming languages and methodologies in the construction of projects, paying attention to quality, usability, robustness, integrity and security.',
-    'Especialista em ferramentas computacionais e metodologias de projetos na produção de sistemas. Utilizando linguagens de programação e metodologias na construção de projetos, atento a qualidade, usabilidade, robustez, integridade e segurança.'
+  courseFour: [
+    'Angular: Testes automatizados com jasmine e karma, ',
+    'Angular: Testes automatizados com jasmine e karma, '
+  ],
+  courseFourDate: [
+    'November 2021',
+    'Novembro de 2021'
+  ],
+  courseFourDescription: [
+    'Test services and components, create custom pipelines and generate coverage metrics.',
+    'Teste serviços e componentes, crie pipelines customizadas e gere métricas de cobertura.'
+  ],
+  courseFive: [
+    'Angular: Avançando com testes automatizados, ',
+    'Angular: Avançando com testes automatizados, '
+  ],
+  courseFiveDate: [
+    'December 2021',
+    'Dezembro de 2021'
+  ],
+  courseFiveDescription: [
+    'Master the use of fakeAsync, use mock providers in component tests, advance in the use of Spies.',
+    'Domine o uso de fakeAsync, utilize mock providers em testes de componentes, avance no uso de Spies.'
   ],
   descriptionOpenSource: [
     'With experience in open source projects and privates, i already contributes to community and private companies projects like Globo.com.',
