@@ -354,6 +354,18 @@ const configs = {
     'Master the use of fakeAsync, use mock providers in component tests, advance in the use of Spies.',
     'Domine o uso de fakeAsync, utilize mock providers em testes de componentes, avance no uso de Spies.'
   ],
+  courseSix: [
+    'Unit Testing in Angular, ',
+    'Unit Testing in Angular, '
+  ],
+  courseSixDate: [
+    'February 2022',
+    'Fevereiro de 2021'
+  ],
+  courseSixDescription: [
+    'Automated tests are an important ingredient in a successful project. This course will teach you everything you need to know to unit test your Angular projects, including testing services, component templates, and dealing with asynchronous code.',
+    'Automated tests are an important ingredient in a successful project. This course will teach you everything you need to know to unit test your Angular projects, including testing services, component templates, and dealing with asynchronous code.'
+  ],
   descriptionOpenSource: [
     'With experience in open source projects and privates, i already contributes to community and private companies projects like Globo.com.',
     'Com experiência em projetos open source e privados, eu já contribui para projetos da comunide e de empresas privadas como Globo.com.'
