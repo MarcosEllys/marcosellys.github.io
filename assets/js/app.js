@@ -211,8 +211,8 @@ const configs = {
   ],
 
   roleFour: [
-    'Specialist 1 fullstack,',
-    'Especialista 1 fullstack,'
+    'Specialist fullstack,',
+    'Especialista fullstack,'
   ],
   startDateFour: [
     'November 2021',
@@ -231,8 +231,20 @@ const configs = {
     'Especialista em Angular responsável por evoluir arquiteturas multi libs.'
   ],
   descriptionBusinessFourRef2: [
-    'Works as a full stack developer using Java and Typescript. ',
-    'Trabalha como desenvolvedor full stack utilizando Java e Typescript.'
+    'Works as a full stack developer using mainly Java, Typescript, Microservices, RabbitMQ and Postgres.',
+    'Trabalha como desenvolvedor full stack utilizando principalmente Java, Typescript, Microservices, RabbitMQ e Postgres.'
+  ],
+  descriptionBusinessFourRef3: [
+    'Works in the evolution of mobile applications with ionic.',
+    'Atua na evolução de aplicações mobile com ionic.'
+  ],
+  descriptionBusinessFourRef3: [
+    'Works in the evolution of mobile applications with ionic.',
+    'Atua na evolução de aplicações mobile com ionic.'
+  ],
+  descriptionBusinessFourRef4: [
+    'Cooperates to maintain and improve manual, unit and integration processes and tests.',
+    'Coopera para manter e melhorar processos e testes manuais, unitários e de integração.'
   ],
   talent: [
     'Hard Skills',
@@ -365,6 +377,18 @@ const configs = {
   courseSixDescription: [
     'Automated tests are an important ingredient in a successful project. This course will teach you everything you need to know to unit test your Angular projects, including testing services, component templates, and dealing with asynchronous code.',
     'Automated tests are an important ingredient in a successful project. This course will teach you everything you need to know to unit test your Angular projects, including testing services, component templates, and dealing with asynchronous code.'
+  ],
+  courseSeven: [
+    'Kubernetes: Pods, Services e ConfigMaps, ',
+    'Kubernetes: Pods, Services e ConfigMaps, '
+  ],
+  courseSevenDate: [
+    'April 2022',
+    'Abril de 2021'
+  ],
+  courseSevenDescription: [
+    'Learn about Kubernetes architecture, manage Pods with kubectl, configure environment settings using ConfigMaps.',
+    'Conheça arquitetura Kubernetes, gerencie Pods com o kubectl, defina configurações de ambiente utilizando ConfigMaps.'
   ],
   descriptionOpenSource: [
     'With experience in open source projects and privates, i already contributes to community and private companies projects like Globo.com.',
