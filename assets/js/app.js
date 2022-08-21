@@ -372,7 +372,7 @@ const configs = {
   ],
   courseSixDate: [
     'February 2022',
-    'Fevereiro de 2021'
+    'Fevereiro de 2022'
   ],
   courseSixDescription: [
     'Automated tests are an important ingredient in a successful project. This course will teach you everything you need to know to unit test your Angular projects, including testing services, component templates, and dealing with asynchronous code.',
@@ -384,11 +384,23 @@ const configs = {
   ],
   courseSevenDate: [
     'April 2022',
-    'Abril de 2021'
+    'Abril de 2022'
   ],
   courseSevenDescription: [
     'Learn about Kubernetes architecture, manage Pods with kubectl, configure environment settings using ConfigMaps.',
     'Conheça arquitetura Kubernetes, gerencie Pods com o kubectl, defina configurações de ambiente utilizando ConfigMaps.'
+  ],
+  courseEight: [
+    'Remote management, ',
+    'Gestão remota, '
+  ],
+  courseEightDate: [
+    'July 2022',
+    'Julho de 2022'
+  ],
+  courseEightDescription: [
+    'Learn the best practices and work tools for effective remote management and ensuring speed in the progress of all your teams projects.',
+    'Aprenda as melhores práticas e ferramentas de trabalho para fazer uma gestão remota eficaz e garantir velocidade no andamento de todos os projetos dos seus times..'
   ],
   descriptionOpenSource: [
     'With experience in open source projects and privates, i already contributes to community and private companies projects like Globo.com.',
