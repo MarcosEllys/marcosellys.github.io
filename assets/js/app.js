@@ -238,13 +238,17 @@ const configs = {
     'Works in the evolution of mobile applications with ionic.',
     'Atua na evolução de aplicações mobile com ionic.'
   ],
-  descriptionBusinessFourRef3: [
+  descriptionBusinessFourRef4: [
     'Works in the evolution of mobile applications with ionic.',
     'Atua na evolução de aplicações mobile com ionic.'
   ],
-  descriptionBusinessFourRef4: [
+  descriptionBusinessFourRef5: [
     'Cooperates to maintain and improve manual, unit and integration processes and tests.',
     'Coopera para manter e melhorar processos e testes manuais, unitários e de integração.'
+  ],
+  descriptionBusinessFourRef6: [
+    'Member of the tech and front guild.',
+    'Membro da guild de tecnologia e de front.'
   ],
   talent: [
     'Hard Skills',
@@ -400,7 +404,19 @@ const configs = {
   ],
   courseEightDescription: [
     'Learn the best practices and work tools for effective remote management and ensuring speed in the progress of all your teams projects.',
-    'Aprenda as melhores práticas e ferramentas de trabalho para fazer uma gestão remota eficaz e garantir velocidade no andamento de todos os projetos dos seus times..'
+    'Aprenda as melhores práticas e ferramentas de trabalho para fazer uma gestão remota eficaz e garantir velocidade no andamento de todos os projetos dos seus times.'
+  ],
+  courseNine: [
+    'Smart Productivity, ',
+    'Produtividade inteligente, '
+  ],
+  courseNineDate: [
+    'February 2022',
+    'Fevereiro de 2023'
+  ],
+  courseNineDescription: [
+    'The Intelligent Productivity course presents a practical approach, bringing information that can be applied in everyday professional, academic and personal life.',
+    'O curso produtividade inteligente apresenta uma abordagem prática, trazendo informações que podem ser aplicadas no dia a dia profissional, acadêmico e pessoal.'
   ],
   descriptionOpenSource: [
     'With experience in open source projects and privates, i already contributes to community and private companies projects like Globo.com.',
