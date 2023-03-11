@@ -239,14 +239,10 @@ const configs = {
     'Atua na evolução de aplicações mobile com ionic.'
   ],
   descriptionBusinessFourRef4: [
-    'Works in the evolution of mobile applications with ionic.',
-    'Atua na evolução de aplicações mobile com ionic.'
-  ],
-  descriptionBusinessFourRef5: [
     'Cooperates to maintain and improve manual, unit and integration processes and tests.',
     'Coopera para manter e melhorar processos e testes manuais, unitários e de integração.'
   ],
-  descriptionBusinessFourRef6: [
+  descriptionBusinessFourRef5: [
     'Member of the tech and front guild.',
     'Membro da guild de tecnologia e de front.'
   ],
