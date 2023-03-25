@@ -302,6 +302,10 @@ const configs = {
     'Graduated in 2014',
     'Graduado em 2014'
   ],
+  skillsDescritption: [
+    'Specialist in computational tools and project methodologies in systems production. Use programming languages and methodologies in the construction of projects, paying attention to quality, usability, robustness, integrity and security.',
+    'Especialista em ferramentas computacionais e metodologias de projetos na produção de sistemas. Utilizando linguagens de programação e metodologias na construção de projetos, atento a qualidade, usabilidade, robustez, integridade e segurança.'
+  ],
   courseOne: [
     'Remote Team Management, ',
     'Gestão de Equipes Remotas, '
@@ -313,10 +317,6 @@ const configs = {
   courseOneDescription: [
     'Course with the main objective is to present concepts, tools and techniques to effectively manage remote teams.',
     'Curso com o objetivo principal é apresentar conceitos, ferramentas e técnicas para gerenciar, efetivamente, equipes remotas. '
-  ],
-  skillsDescritption: [
-    'Specialist in computational tools and project methodologies in systems production. Use programming languages and methodologies in the construction of projects, paying attention to quality, usability, robustness, integrity and security.',
-    'Especialista em ferramentas computacionais e metodologias de projetos na produção de sistemas. Utilizando linguagens de programação e metodologias na construção de projetos, atento a qualidade, usabilidade, robustez, integridade e segurança.'
   ],
   courseTwo: [
     'Scrum Fundamentals Certified, ',
@@ -413,6 +413,18 @@ const configs = {
   courseNineDescription: [
     'The Intelligent Productivity course presents a practical approach, bringing information that can be applied in everyday professional, academic and personal life.',
     'O curso produtividade inteligente apresenta uma abordagem prática, trazendo informações que podem ser aplicadas no dia a dia profissional, acadêmico e pessoal.'
+  ],
+  postGraduateTitle: [
+    'Software Engineering, ',
+    'Engenharia de software, '
+  ],
+  postGraduateDate: [
+    'Postgraduate in March 2024',
+    'Pós-graduado em março de 2024'
+  ],
+  postGraduateDescritption: [
+    'software engineering specialist.',
+    'especialista em engenharia de software.'
   ],
   descriptionOpenSource: [
     'With experience in open source projects and privates, i already contributes to community and private companies projects like Globo.com.',
